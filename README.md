@@ -89,9 +89,10 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
        --description="Allow FastAPI traffic"
    ```
    or do it manually in the VPC Firewall settings
+   
 ![Screenshot 2025-02-05 235933](https://github.com/user-attachments/assets/d6a542b1-cc55-4125-806d-b5b03fa6c6be)
 
-5. **Verify API is accessible**:
+6. **Verify API is accessible**:
    ```bash
    curl http://35.209.49.217:8000/
    ```
@@ -109,7 +110,6 @@ Screenshots
 
 Python file(main.py)
 
-
 ![Screenshot 2025-02-05 234325](https://github.com/user-attachments/assets/e472f167-9125-427d-a3e3-2f1131f00d4f)
 
 
@@ -119,9 +119,11 @@ Example API Response
 ![Screenshot 2025-02-05 233409](https://github.com/user-attachments/assets/46ecf405-b4a0-4a22-b013-8d5561db776d)
 
 
+
 Pushed to GitHub
 
 ![Screenshot 2025-02-05 234548](https://github.com/user-attachments/assets/d2060734-a613-477d-bc56-41606a542c96)
+
 
 Technologies Used
 
