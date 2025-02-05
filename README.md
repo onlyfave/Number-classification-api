@@ -119,7 +119,7 @@ Number-classification-api/
 ```
 Screenshots
 
-API Running Successfully
+Python file(main.py)
 
 
 ![Screenshot 2025-02-05 234325](https://github.com/user-attachments/assets/e472f167-9125-427d-a3e3-2f1131f00d4f)
@@ -127,8 +127,12 @@ API Running Successfully
 
 
 Example API Response
+
 ![Screenshot 2025-02-05 233409](https://github.com/user-attachments/assets/46ecf405-b4a0-4a22-b013-8d5561db776d)
+
+
 Pushed to GitHub
+
 ![Screenshot 2025-02-05 234548](https://github.com/user-attachments/assets/d2060734-a613-477d-bc56-41606a542c96)
 
 Technologies Used
