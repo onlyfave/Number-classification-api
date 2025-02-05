@@ -146,5 +146,5 @@ curl "http://35.209.49.217:8000/api/classify-number?number=42"
 This project is licensed under the MIT License.
 
 ## Conclusion
-The **Number Classification API** is a lightweight and efficient API that provides mathematical insights and fun facts about numbers. Future improvements may include support for additional number properties and performance optimizations.
+The **Number Classification API** is a lightweight and efficient API that provides mathematical insights and fun facts about numbers. Future improvements may include support for additional number properties and performance optimizations.🔥
 
