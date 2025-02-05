@@ -71,6 +71,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
 ## Deployment on Google Cloud Compute Engine (GCE)
 1. **Create a VM Instance** on GCE.
+![Screenshot 2025-02-05 231115](https://github.com/user-attachments/assets/35d4e6d5-99ab-458c-a507-fc18bb5c5cec)
 2. **Install dependencies**:
    ```bash
    sudo apt update && sudo apt install python3-pip
@@ -89,8 +90,24 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
    ```
 5. **Verify API is accessible**:
    ```bash
-   curl http://<your-external-ip>:8000/
+   curl http://35.209.49.217:8000/
    ```
+   Steps to Run Locally
+
+# Clone the repository
+git clone https://github.com/onlyfave/Number-classification-api.git
+cd Number-classification-api
+
+# Create a virtual environment
+python3 -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the FastAPI server
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
 
 ## Project Structure
 ```
@@ -100,6 +117,21 @@ Number-classification-api/
 │── README.md             # Documentation (this file)
 └── .gitignore            # Git ignore file
 ```
+Screenshots
+
+API Running Successfully
+
+
+![Screenshot 2025-02-05 234325](https://github.com/user-attachments/assets/e472f167-9125-427d-a3e3-2f1131f00d4f)
+
+
+
+Example API Response
+![Screenshot 2025-02-05 233409](https://github.com/user-attachments/assets/46ecf405-b4a0-4a22-b013-8d5561db776d)
+Pushed to GitHub
+![Screenshot 2025-02-05 234548](https://github.com/user-attachments/assets/d2060734-a613-477d-bc56-41606a542c96)
+
+Technologies Used
 
 ## Testing the API
 You can test the API using **cURL**, **Postman**, or a web browser:
