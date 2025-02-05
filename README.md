@@ -122,6 +122,9 @@ Example API Response
 
 ![Screenshot 2025-02-05 233409](https://github.com/user-attachments/assets/46ecf405-b4a0-4a22-b013-8d5561db776d)
 
+API Running Successfully
+
+![Screenshot 2025-02-06 001319](https://github.com/user-attachments/assets/8317ec32-4516-41ec-8974-92d8c048d527)
 
 
 Pushed to GitHub
