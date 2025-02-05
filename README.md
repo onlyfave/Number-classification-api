@@ -88,6 +88,9 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
        --target-tags=http-server \
        --description="Allow FastAPI traffic"
    ```
+   or do it manually in the VPC Firewall settings
+![Screenshot 2025-02-05 235933](https://github.com/user-attachments/assets/d6a542b1-cc55-4125-806d-b5b03fa6c6be)
+
 5. **Verify API is accessible**:
    ```bash
    curl http://35.209.49.217:8000/
