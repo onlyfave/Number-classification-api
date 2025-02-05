@@ -71,16 +71,20 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
 ## Deployment on Google Cloud Compute Engine (GCE)
 1. **Create a VM Instance** on GCE.
+
 ![Screenshot 2025-02-05 231115](https://github.com/user-attachments/assets/35d4e6d5-99ab-458c-a507-fc18bb5c5cec)
+
 2. **Install dependencies**:
    ```bash
    sudo apt update && sudo apt install python3-pip
    pip install fastapi uvicorn
    ```
+
 3. **Run the API in the background**:
    ```bash
    nohup uvicorn main:app --host 0.0.0.0 --port 8000 &
    ```
+
 4. **Allow external traffic** on port 8000:
    ```bash
    gcloud compute firewall-rules create allow-fastapi \
