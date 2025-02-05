@@ -92,21 +92,6 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
    ```bash
    curl http://35.209.49.217:8000/
    ```
-   Steps to Run Locally
-
-# Clone the repository
-git clone https://github.com/onlyfave/Number-classification-api.git
-cd Number-classification-api
-
-# Create a virtual environment
-python3 -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the FastAPI server
-uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
 
 ## Project Structure
